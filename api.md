@@ -1,7 +1,9 @@
 
 // First api POST request
 POST http://localhost:8000/notes
+Content-Type: application/x-www-form-urlencoded
 
-// POST request with params
-POST http://localhost:8000/notes
+title: 'Hello hai'
+
+
 
